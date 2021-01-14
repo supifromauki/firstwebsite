@@ -1,0 +1,262 @@
+/* footer
+
+
+ad-atom-logo{
+width: 
+}
+
+ad-atom-p{
+font-size: 10px
+font-family: inter, sans serif
+letter-spacing: 
+line-height: 20px
+font-weight: 400
+}
+
+ad-atom-h2{
+font-size: 40px
+font-family: inter, sans serif
+letter-spacing: -1.5px
+line-height: 38px
+font-weight: 800
+}
+
+ad-atom-btn{
+font-size: 16px
+font-family: inter, sans serif
+line-height: 28.5px
+font-weight: 700}
+
+ad-atom-icon{
+width:25px
+height: 25px}
+
+ad-atom-footer-link{
+font-size: 16px
+font-family: inter, sans serif
+letter-spacing: 
+line-height: 16px
+font-weight: 400
+}
+
+footer
+
+
+/agencies/
+
+green section
+
+ad-atom-h3{
+font-size: 24px
+font-family: inter, sans serif
+letter-spacing:-.5px 
+line-height: px
+font-weight: 800}
+
+ad-atom-p2{
+font-size: 13px
+font-family: inter, sans serif
+letter-spacing: 
+line-height: 1.15px
+font-weight: 400}
+green section
+
+article
+ad-atom-h4{
+font-size: 22px
+font-family: inter, sans serif
+letter-spacing:- -0.5px
+line-height: 1px
+font-weight: 800}
+
+ad-atom-p3{
+font-size: 14px
+font-family: inter, sans serif
+letter-spacing:.05 
+line-height: 1.65px
+font-weight: 400
+}
+
+Atoms
+
+       Text
+      Headings
+       H1
+          ts-atom-h1{}
+@media(min-width: 992px)
+@media(min-width: 1200px)
+@media(min-width: 1400px)
+ts-atom-h1--<modifier>
+H2
+	1. 	Ad-atom-h2{
+		}
+		a.@media(min-width: 992px)
+   b.@media(min-width: 1200px)
+   c.@media(min-width: 1400px)
+H3
+	1. 	Ad-atom-h3{
+		}
+@media(min-width: 992px)
+   b.@media(min-width: 1200px)
+   c.@media(min-width: 1400px)
+H4
+				1 .	 Ad-atom-card-title-h4{
+					
+					}
+@media(min-width: 992px)
+   b.@media(min-width: 1200px)
+   c.@media(min-width: 1400px)
+				2.	Ad-atom-h4{
+		
+					}
+
+				      	a.@media(min-width: 992px)
+   	b.@media(min-width: 1200px)
+c.@media(min-width: 1400px)
+Sub Title
+links
+Paragraphs
+
+
+Images
+Banner images
+ts-atom-banner-img{}
+@media(min-width: 992px)
+@media(min-width: 1200px)
+@media(min-width: 1400px)
+ts-atom-banner-img--<modifier>{}
+Icons
+Bg images
+Buttons
+Input 
+
+/* home page */
+
+
+
+organisms 
+
+header  
+
+footer 
+
+ad-org-cards-t1
+
+ad-cards-t1__image
+
+ad-cards-t1__h2
+
+ad-csrds-t1__p
+
+*/
+
+/* home page */
+   :root
+   { 
+	--ff1 : 'Inter' , sans-serif ; 
+	--ff2 :'Inconsolata', monospace;
+	--clr1: rgb(87, 87, 87);/* para common color  */ 
+   }
+
+   .ts-atom-h1{  font-family: var(--ff1); font-size:50px; color:black; font-weight: 800;}
+
+   .ts-atom-h2{ font-size:40px; letter-spacing:-1.5px; font-family: var(--ff1); font-weight:800; line-height: 0.95;}
+
+   .ts-atom-h3{ font-family: var(--ff1); font-size:24px; line-height: 1;font-weight:800;letter-spacing: -0.5px;  }   /*green section in agency  */
+
+   .ts-atom-h4{ font-family: var(--ff1);font-size: 25px; line-height: 1; font-weight: 800; letter-spacing: -0.5px;}
+
+   .ts-atom-p{font-family: var(--ff1); color: var(--clr1); font-size:18px ; letter-spacing: -0.15px; line-height: 1.6;color:rgb(87,87,87); }  /* paragraph X 4 */
+   .ts-atom-btn{font-family: var(--ff2);color:rgb(87,87,87); height:45px;  }
+
+   
+   
+ 
+   .ts-atom-header-link{font-size:20px ;font-weight:400;line-height:30px;font-family:var(--ff1);}
+
+   .ts-atom-footer-link{ font-family: var(--ff1);font-size: 16px;line-height: 16px;}
+
+   .ts-atom-card-title-h3{font-size :25px; font-family:var(--ff1) ; font-weight:800;line-height:25px;letter-spacing:-0.5px ;}
+	
+     /* about page  */
+ 
+
+     /* about page  */
+
+
+
+   
+
+   .ad-atom-icons{width:25px; height:25px;}
+
+   .ts-atom-bgimage{}
+
+
+     /* tablet  */
+   @media screen and (min-width:762px)
+  {
+	.ts-atom-h1{ font-size:63px;line-height: 0.95; letter-spacing: -2.5px; }
+	.ts-atom-h2{ font-size:53px;line-height:0.95 ; letter-spacing:-2px; }
+	
+	.ts-atom-h3{font-size:30px; }
+
+	.ts-atom-h4{font-size:25px;}
+
+	.ts-atom-p{font-size: 20px;letter-spacing: normal;line-height:32px; }
+	.ts-atom-btn{height:46px;}
+
+	.ts-atom-header-link{font-size:16.128px;line-height:24px;}
+
+	.ts-atom-card-title-h3{font-size:28px;}
+
+
+	 
+
+
+}
+  /* tablet  */
+
+   /* desktop   */
+@media screen and (min-width:992px)
+{
+	.ts-atom-h1{font-size:72px; }
+	.ts-atom-h2{font-size:62px;}
+
+	.ts-atom-h3{font-size:36px;}
+
+	.ts-atom-h4{font-size:28px;}
+
+	.ts-atom-p{ font-size: 20px; letter-spacing: normal; line-height: 32px; }
+
+	.ts-atom-btn{height:49px;}
+
+	.ts-atom-header-link{font-size:18px ;line-height:27px;}
+
+	.ts-atom-card-title-h3{font-size :28px;}
+
+}
+
+   /* desktop */
+
+   /* MOLECULES */
+   .ts-molc-card{}
+	.ts-molc-card__img{}
+	.ts-molc-card__h3{}
+	.ts-molc-card__pbody{}
+
+
+
+	/* Agencies
+	green section organism
+	h3-molc p-molc
+
+
+	h2-p-image organism repeated in home page
+	
+	card-molc-repeated
+	
+	footer-organism  basic
+	
+	
+	
+	*/
