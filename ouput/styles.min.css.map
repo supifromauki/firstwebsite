@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AGEA,AAAA,IAAI,AAAC,CACD,gBAAgB,CAAE,MAAM,CAAG",
+    "sources": [
+        "../sass/styles.sass",
+        "../sass/_johns.sass",
+        "../sass/_vinayak.sass",
+        "../sass/_gopal.sass",
+        "../sass/_nikhil.sass",
+        "../sass/_meera.sass"
+    ],
+    "names": [],
+    "file": "styles.min.css"
+}
