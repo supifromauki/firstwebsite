@@ -1,3 +1,35 @@
+.ts-atom-header-link {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  font-family: "Inter";
+}
+
+.ts-atom-icon {
+  cursor: pointer;
+}
+
+.ts-atom-button {
+  font-family: "inconsolata-a,times new roman";
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .ts-atom-header-link {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: "Inter";
+  }
+  .ts-atom-icon {
+    cursor: pointer;
+  }
+  .ts-atom-button {
+    font-family: "inconsolata-a,times new roman";
+    cursor: pointer;
+  }
+}
+
 .ts-atom-h2-para {
   font-size: 18px;
   font-weight: 400;
@@ -25,22 +57,22 @@
 }
 
 @media screen and (min-width: 768px) {
-  .smth .ts-atom-h2-para {
+  .ts-atom-h2-para {
     font-size: 21px;
     line-height: 32px;
   }
-  .smth .ts-atom-h1-para-highlight {
+  .ts-atom-h1-para-highlight {
     font-size: 24px;
     font-weight: 700;
     line-height: 33.6px;
   }
-  .smth .ts-atom-h2-para-highlight {
+  .ts-atom-h2-para-highlight {
     font-size: 21px;
     font-weight: 700;
     line-height: 24.15px;
     letter-spacing: -0.15px;
   }
-  .smth .ts-atom-agencies-highlight {
+  .ts-atom-agencies-highlight {
     font-size: 19px;
     font-weight: 700;
     line-height: 21.85px;
