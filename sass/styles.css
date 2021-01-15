@@ -1,3 +1,32 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.ts-molc-cardt1 {
+  padding: 0px;
+}
+
+.ts-molc-cardt1--bg {
+  background-color: #fbf7f5;
+  width: 269px;
+  height: 400px;
+}
+
+.ts-cardt1__image {
+  width: 100px;
+  height: 100px;
+}
+
+.ts-cardt1__h4 {
+  font-size: 28px;
+}
+
+.ts-cardt1__p {
+  color: #777777;
+  font-size: 18px;
+  line-height: 1.25;
+}
+
 .ts-atom-header-link {
   font-size: 18px;
   font-weight: 400;
@@ -10,31 +39,23 @@
 }
 
 .ts-atom-button {
-  font-family: "inconsolata-a,times new roman";
+  font-family: "Inconsolata", monospace;
   cursor: pointer;
 }
 
-@media screen and (min-width: 768px) {
-  .ts-atom-header-link {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 27px;
-    font-family: "Inter";
-  }
-  .ts-atom-icon {
-    cursor: pointer;
-  }
-  .ts-atom-button {
-    font-family: "inconsolata-a,times new roman";
-    cursor: pointer;
-  }
+.ts-atom-header-link {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  font-family: "Inter";
 }
 
-.ts-atom-h1 {
-  font-size: 7em;
+.ts-atom-icon {
+  cursor: pointer;
 }
 
-.ts-atom-h2 {
-  font-size: 4em;
+.ts-atom-button {
+  font-family: "Inconsolata", monospace;
+  cursor: pointer;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -1,7 +1,31 @@
-$small: 576px
+
 $medium: 768px
 $large: 1200px
-$font_secondary: "inconsolata-a,times new roman"
+$font_secondary: 'Inconsolata', monospace 
+
+.ts-atom-header-link
+    font-size: 18px
+    font-weight: 400
+    line-height: 27px
+    font-family: "Inter"
+
+.ts-atom-icon
+    cursor: pointer
+
+.ts-atom-button
+    font-family: $font_secondary
+    cursor: pointer
+
+.smth
+  //some CSS
+
+@media screen and (min-width:$medium)
+    //do Smth
+        
+
+
+
+@media screen and (min-width:$large)
 
 .ts-atom-header-link
     font-size: 18px
@@ -13,21 +37,3 @@ $font_secondary: "inconsolata-a,times new roman"
 .ts-atom-button
     font-family: $font_secondary
     cursor: pointer
-
-.smth
-  //some CSS
-@media screen and (max-width: $small)
-    //do Smth
-
-@media screen and (min-width: $medium)
-
-    .ts-atom-header-link
-        font-size: 18px
-        font-weight: 400
-        line-height: 27px
-        font-family: "Inter"
-    .ts-atom-icon
-        cursor: pointer
-    .ts-atom-button
-        font-family: $font_secondary
-        cursor: pointer
