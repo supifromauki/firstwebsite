@@ -91,20 +91,6 @@ body {
   letter-spacing: -0.15px;
 }
 
-.ts-atom-h3 {
-  font-size: 24px;
-  line-height: 1;
-  font-weight: 800;
-  letter-spacing: -0.5px;
-}
-
-.ts-atom-h4 {
-  font-size: 25px;
-  line-height: 1;
-  font-weight: 800;
-  letter-spacing: -0.5px;
-}
-
 @media screen and (min-width: 768px) {
   .ts-atom-h1 {
     font-size: 72px;
@@ -126,14 +112,6 @@ body {
   }
 }
 
-.ts-atom-h3 {
-  font-size: 30px;
-}
-
-.ts-atom-h4 {
-  font-size: 25px;
-}
-
 @media screen and (min-width: 992px) {
   .ts-atom-h1 {
     font-size: 72px;
@@ -143,14 +121,6 @@ body {
     line-height: 0.95;
     letter-spacing: -2px;
   }
-}
-
-.ts-atom-h3 {
-  font-size: 36px;
-}
-
-.ts-atom-h4 {
-  font-size: 28px;
 }
 
 .ts-atom-header-link {
@@ -192,6 +162,39 @@ body {
   letter-spacing: -0.15px;
 }
 
+.ts-atom-h3 {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.ts-atom-h3--white {
+  color: white;
+}
+
+.ts-atom-h3-para {
+  font-size: 13px;
+  line-height: 14.95px;
+}
+
+.ts-atom-h3-para--white {
+  color: white;
+}
+
+.ts-atom-h4 {
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.ts-atom-h4-para {
+  font-size: 14px;
+  line-height: 23.1px;
+  letter-spacing: 0.05px;
+}
+
 .ts-atom-h1-para-highlight {
   font-size: 22px;
   font-weight: 700;
@@ -211,7 +214,32 @@ body {
   line-height: 19.55px;
 }
 
+.ts-org-green {
+  background-color: #0abab5;
+}
+
 @media screen and (min-width: 768px) {
+  .ts-atom-h3 {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+  }
+  .ts-atom-h3-para {
+    font-size: 17px;
+    line-height: 19.55px;
+  }
+  .ts-atom-h4 {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+  }
+  .ts-atom-h4-para {
+    font-size: 16px;
+    line-height: 26.4px;
+    letter-spacing: 0.05px;
+  }
   .ts-atom-h2-para {
     font-size: 21px;
     line-height: 32px;
@@ -231,6 +259,15 @@ body {
     font-size: 19px;
     font-weight: 700;
     line-height: 21.85px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .ts-atom-h3 {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
