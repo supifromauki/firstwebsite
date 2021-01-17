@@ -2,14 +2,6 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-ol {
-  padding-left: 0px;
-}
-
-ul {
-  padding-left: 0px;
-}
-
 .ts-molc-cardt1 {
   padding: 0px;
 }
@@ -33,88 +25,6 @@ ul {
   color: #777777;
   font-size: 18px;
   line-height: 1.25;
-}
-
-.ts-org-footer {
-  padding: 0;
-  background-color: black;
-}
-
-.ts-molc-footercard {
-  padding: 0;
-}
-
-.ts-molc-footercard--bg {
-  border: none;
-  background-color: black;
-  width: 170px;
-  height: 220px;
-}
-
-.ts-molc-footercard__img {
-  width: 80px;
-  height: 80px;
-  margin-left: 2px;
-}
-
-.ts-molc-footercard__h4 {
-  font-size: 22px !important;
-}
-
-.ts-molc-footercard__p {
-  font-size: 17px;
-  color: #CACACA;
-}
-
-.ts-footer__logo-img {
-  margin-top: 37px;
-  width: 124px;
-  height: 24px;
-}
-
-.ts-footer__p-demo {
-  width: 260px;
-  letter-spacing: normal !important;
-  margin-top: 32px;
-}
-
-.ts-footer__btn-text {
-  font-family: "Inconsolata", monospace;
-  font-size: 16px !important;
-  width: 106px;
-  height: 46px;
-}
-
-.ts-footer__list {
-  padding: 0px;
-}
-
-.ts-footer__list-heading {
-  font-size: 17px !important;
-  letter-spacing: normal !important;
-}
-
-.ts-footer__list-items {
-  list-style-type: none;
-  color: #CACACA;
-}
-
-.ts-footer__list-social {
-  padding: 0px;
-}
-
-.ts-footer__list-social-items {
-  list-style-type: none;
-}
-
-.ts-footer__list-social-img {
-  width: 25px;
-  height: 25px;
-}
-
-.ts-footer__credits {
-  font-size: 13px !important;
-  color: #505050;
 }
 
 .ts-atom-card-title-h3 {
@@ -195,12 +105,6 @@ body {
   letter-spacing: -0.5px;
 }
 
-.ts-atom-p {
-  font-size: 18px;
-  letter-spacing: -0.15px;
-  line-height: 1.6;
-}
-
 @media screen and (min-width: 768px) {
   .ts-atom-h1 {
     font-size: 72px;
@@ -220,12 +124,14 @@ body {
     line-height: 30.8px;
     letter-spacing: normal;
   }
-  .ts-atom-h3 {
-    font-size: 30px;
-  }
-  .ts-atom-h4 {
-    font-size: 25px;
-  }
+}
+
+.ts-atom-h3 {
+  font-size: 30px;
+}
+
+.ts-atom-h4 {
+  font-size: 25px;
 }
 
 @media screen and (min-width: 992px) {
@@ -237,12 +143,14 @@ body {
     line-height: 0.95;
     letter-spacing: -2px;
   }
-  .ts-atom-h3 {
-    font-size: 36px;
-  }
-  .ts-atom-h4 {
-    font-size: 28px;
-  }
+}
+
+.ts-atom-h3 {
+  font-size: 36px;
+}
+
+.ts-atom-h4 {
+  font-size: 28px;
 }
 
 .ts-atom-header-link {
