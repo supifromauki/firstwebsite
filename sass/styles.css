@@ -91,6 +91,20 @@ body {
   letter-spacing: -0.15px;
 }
 
+.ts-atom-h3 {
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.ts-atom-h4 {
+  font-size: 25px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
 @media screen and (min-width: 768px) {
   .ts-atom-h1 {
     font-size: 72px;
@@ -112,6 +126,33 @@ body {
   }
 }
 
+.ts-atom-h3 {
+  font-size: 30px;
+}
+
+.ts-atom-h4 {
+  font-size: 25px;
+}
+
+@media screen and (min-width: 992px) {
+  .ts-atom-h1 {
+    font-size: 72px;
+  }
+  .ts-atom-h2 {
+    font-size: 53px;
+    line-height: 0.95;
+    letter-spacing: -2px;
+  }
+}
+
+.ts-atom-h3 {
+  font-size: 36px;
+}
+
+.ts-atom-h4 {
+  font-size: 28px;
+}
+
 body, html {
   height: 100%;
 }
@@ -124,56 +165,134 @@ body, html {
   margin-left: auto;
 }
 
-.ts-org-header {
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
-}
-
-.ts-molc-header {
-  padding-right: 10px;
+.navbar-toggle {
+  border: none;
+  outline: none;
 }
 
 .ts-atom-logo {
   cursor: pointer;
-  width: 130 px;
-  height: 26.8438px;
+  width: 100px;
+  height: 20.6406px;
 }
 
-.ts-atom-header-link {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 27px;
-  font-family: "Inter";
+@media screen and (min-width: 768px) {
+  /* Button used to open the contact form - fixed at the bottom of the page */
+  .open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    position: relative;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    -webkit-transform: translate(15%, 6%);
+            transform: translate(15%, 6%);
+    width: 77.5%;
+    height: 400 px;
+  }
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  .nav-drop-content {
+    padding: 20px 25px !important;
+    border-radius: 12px !important;
+    background-color: #fff !important;
+    -webkit-box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.15) !important;
+            box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.15) !important;
+    width: -webkit-max-content !important;
+    width: -moz-max-content !important;
+    width: max-content !important;
+  }
+  .ts-org-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .ts-molc-header {
+    padding-right: 10px;
+  }
+  .ts-atom-logo {
+    cursor: pointer;
+    width: 130px;
+    height: 20.6406px;
+  }
+  .ts-atom-header-link {
+    font-size: 16.128px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: "Inter";
+    padding-left: 6.3px !important;
+  }
+  .ts-atom-header-link--me {
+    margin-right: 0px;
+  }
+  .ts-atom-button {
+    font-family: "Inconsolata", monospace;
+    cursor: pointer;
+    height: 50px;
+    width: 110px;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 10px 16px 10px 10px !important;
+  }
+  .ts-atom-logo {
+    cursor: pointer;
+    width: 130 px;
+    height: 26.8438px;
+  }
 }
 
-.ts-atom-header-link--me {
-  margin-right: 12.5px;
-}
-
-.ts-atom-button {
-  font-family: "Inconsolata", monospace;
-  cursor: pointer;
-  height: 50px;
-  width: 119.516px;
-  font-size: 19px;
-  font-weight: 700;
-  padding: 10px 16px 10px 10px !important;
-}
-
-.ts-atom-header-link {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 27px;
-  font-family: "Inter";
-}
-
-.ts-atom-icon {
-  cursor: pointer;
-}
-
-.ts-atom-button {
-  font-family: "Inconsolata", monospace;
-  cursor: pointer;
+@media screen and (min-width: 1200px) {
+  .ts-org-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .ts-molc-header {
+    padding-right: 10px;
+  }
+  .ts-atom-logo {
+    cursor: pointer;
+    width: 130px;
+    height: 20.6406px;
+  }
+  .ts-atom-header-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: "Inter";
+  }
+  .ts-atom-header-link--me {
+    margin-right: 12.5px;
+  }
+  .ts-atom-button {
+    font-family: "Inconsolata", monospace;
+    cursor: pointer;
+    height: 50px;
+    width: 119.516px;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 10px 16px 10px 10px !important;
+  }
+  .ts-atom-logo {
+    cursor: pointer;
+    width: 130 px;
+    height: 26.8438px;
+  }
 }
 
 .ts-atom-h2-para {
