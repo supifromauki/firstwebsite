@@ -100,7 +100,7 @@ body {
   font-size: 19px;
   font-weight: 400;
   line-height: 26.6px;
-  max-width: 320px;
+  padding-right: 1.15rem;
 }
 
 .ts-atom-h2 {
@@ -128,8 +128,8 @@ body {
   font-size: 15px !important;
   border-style: none !important;
   float: left;
-  padding-top: 16px;
-  width: 250px;
+  padding-top: 10px;
+  width: 280px;
   padding-left: 0;
 }
 
@@ -190,7 +190,7 @@ body {
     font-weight: 400;
     line-height: 33.6px;
     letter-spacing: normal;
-    max-width: 500px;
+    padding-right: 4rem;
   }
   .ts-molc-better__h1 {
     margin-bottom: 20px;
@@ -208,7 +208,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
   .ts-atom-h1 {
     font-size: 72px;
     line-height: 68.4px;
@@ -227,7 +227,7 @@ body {
     font-weight: 400;
     line-height: 30.8px;
     letter-spacing: normal;
-    max-width: 560px;
+    padding-right: 5rem;
   }
   .ts-atom-h2-para {
     font-size: 21px;
@@ -258,9 +258,15 @@ body {
   }
 }
 
+@media screen and (max-width: 576px) {
+  .ts-atom-icon-desc {
+    margin-left: 70px;
+    margin-top: -52px !important;
+  }
+}
+
 body, html {
   height: 100%;
-  overflow-x: hidden;
 }
 
 .ts-content-container {
@@ -452,12 +458,23 @@ body, html {
 
 .ts-atom-agencies-highlight {
   font-size: 17px;
-  font-weight: 700;
+  font-weight: normal;
   line-height: 19.55px;
+  border-color: #c0deeb;
+  border-width: 1px;
+  color: #525151;
+  font-weight: 700;
+  border-radius: 6px;
+  background-color: #d0ecf8;
+  font-family: "Inconsolota" !important;
 }
 
 .ts-org-green {
-  background-color: #0abab5;
+  background-image: url("/images/green.PNG");
+}
+
+.ts-org-green--mt {
+  margin-top: 60px;
 }
 
 @media screen and (min-width: 768px) {
@@ -499,8 +516,14 @@ body, html {
   }
   .ts-atom-agencies-highlight {
     font-size: 19px;
-    font-weight: 700;
     line-height: 21.85px;
+    color: grey !important;
+    font-weight: 600;
+    border-color: #c0deeb;
+    border-width: 1px;
+    border-radius: 6px;
+    background-color: #d0ecf8;
+    font-family: 'Inconsolota-a';
   }
 }
 
@@ -510,6 +533,20 @@ body, html {
     line-height: 36px;
     font-weight: 800;
     letter-spacing: -0.5px;
+  }
+  .ts-atom-h1--meera-pad-left {
+    margin-left: 188px;
+  }
+  .ts-atom-h1-para--meera-pad-left {
+    margin-left: 218px;
+    max-width: 667px !important;
+  }
+  .ts-molc-head-desc__h2-para--paddingright {
+    padding-right: 8rem;
+  }
+  .ts-org-thoughtful--margintop {
+    margin-top: 80px;
+    margin-bottom: 5rem;
   }
 }
 
@@ -523,31 +560,6 @@ ol {
 
 ul {
   padding-left: 0px;
-}
-
-.ts-molc-cardt1 {
-  padding: 0px;
-}
-
-.ts-molc-cardt1--bg {
-  background-color: #fbf7f5;
-  width: 269px;
-  height: 400px;
-}
-
-.ts-cardt1__image {
-  width: 100px;
-  height: 100px;
-}
-
-.ts-cardt1__h4 {
-  font-size: 28px;
-}
-
-.ts-cardt1__p {
-  color: #777777;
-  font-size: 18px;
-  line-height: 1.25;
 }
 
 .ts-org-footer {
@@ -579,6 +591,12 @@ ul {
 .ts-molc-footercard__p {
   font-size: 17px;
   color: #CACACA;
+}
+
+.ts-footer__hr {
+  width: 98%;
+  color: white;
+  height: 1.5px !important;
 }
 
 .ts-footer__logo-img {
@@ -632,33 +650,46 @@ ul {
   color: #505050;
 }
 
-.ts-footer-banner__h2 {
-  font-size: 53px;
-  padding-top: 55px;
-  margin-bottom: 20px;
+@media screen and (min-width: 768px) {
+  .ts-footer-banner__h2 {
+    font-size: 53px;
+    padding-top: 55px;
+    margin-bottom: 20px;
+  }
+  .ts-footer-banner__p {
+    font-size: 22px;
+    width: 500px;
+    letter-spacing: -0.15px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+  }
+  .ts-molc-footercard--bg {
+    margin-top: 40px;
+    margin-left: 23px;
+  }
+  .ts-molc-footercard__img {
+    width: 110px;
+    height: 110px;
+    margin-left: 2px;
+    margin-top: 2px;
+  }
+  .ts-footer__credits {
+    padding-bottom: 40px;
+    padding-right: 100px;
+  }
 }
 
-.ts-footer-banner__p {
-  font-size: 22px;
-  width: 500px;
-  letter-spacing: -0.15px;
-  margin-top: 10px;
-  margin-bottom: 100px;
-}
-
-.ts-molc-footercard--bg {
-  margin-top: 40px;
-  margin-left: 23px;
-}
-
-.ts-molc-footercard__img {
-  width: 110px;
-  height: 110px;
-  margin-left: 2px;
-  margin-top: 2px;
-}
-
-.ts-footer__credits {
-  padding-bottom: 40px;
+@media screen and (min-width: 992px) {
+  .ts-footer__credits {
+    font-size: 15px;
+  }
+  .ts-footer__list-social {
+    margin-left: 450px;
+    margin-right: -260px;
+  }
+  .ts-footer__list-social-img {
+    width: 50px;
+    height: 50px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
