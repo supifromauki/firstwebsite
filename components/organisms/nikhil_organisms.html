@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Organism</title>
+    <link rel="stylesheet" href="../../sass/styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!----------Header------------------>
+    <header class="ts-org-header">
+        <div class="ts-content-container">
+            <nav class="navbar navbar-expand-md navbar-light ">
+                <a class="navbar-brand " href="#"><img class="ts-atom-logo" src="/images/adaptable-blk-fade.svg"
+                        alt=""></a>
+                <button class="navbar-toggler border-0 pe-0" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-md-center justify-content-lg-end ts-molc-header
+            " id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto ">
+                        <li class="nav-item active ">
+                            <a class="nav-link ts-atom-header-link ts-atom-header-link--me" href="#">How it works </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link ts-atom-header-link ts-atom-header-link--me" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Uses Cases
+                            </a>
+                            <ul class="dropdown-menu nav-drop-content ps-0" aria-labelledby="navbarDropdown">
+                                <li><a class="nav-link ts-atom-header-link" href="#">For Agencies</a></li>
+                                <li><a class="nav-link ts-atom-header-link" href="#">For Inbound teams</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ts-atom-header-link ts-atom-header-link--me" href="#">Plans</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link ts-atom-header-link ts-atom-header-link--me" href="#">About</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link ts-atom-header-link ts-atom-header-link--me border-start"
+                                href="#">Signin</a>
+                        </li>
+                        <li class="ts-molc-header-button">
+                            <button class=" btn-dark my-2 my-sm-0 ts-atom-button " onclick="openForm()"
+                                type="submit">Book demo </button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+    </header>
+    <!----------Header------------------>
+
+    <!-- Pop up -->
+    <div class="form-popup" id="myForm">
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="/images/adaptable-blk-fade.svg" alt="">
+                        <h3>get started.</h3>
+                        <div>No sales pitch. No pressure.</div>
+                        <div>Our 15-min demo call helps you:</div>
+                        <div>Understand our service and benefits.</div>
+                        <div>See our platform and how we integrate with your team.</div>
+                        <div>Identify which plan fits your needs.</div>
+                    </div>
+                    <div class="col-6">
+                        <form action="/action_page.php">
+                            <div class="container">
+
+                                <p>Please fill in this form to create an account.</p>
+
+                                <input type="text" placeholder="Enter Email" name="email" required>
+
+                               
+                                <input type="text" placeholder="Enter Email" name="email" required>
+
+                                <select class="form-control">
+                                    <option>Default select</option>
+                                  </select>
+                                  <p>By clicking the book me in button you agree to our Terms and Privacy Policy.</p>
+
+                                <div class="clearfix">
+                                    <button type="button" class="cancelbtn" onclick="closeForm()">Close</button>
+                                    <button type="submit" class="signupbtn">Book me in</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Pop up -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/fa595a4e66.js" crossorigin="anonymous"></script>
+    <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>
+
+
+<!-- <div class="form-popup" id="myForm">
+    <form action="/action_page.php" class="form-container">
+        <h1>Login</h1>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit" class="btn">Login</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+</div> -->
