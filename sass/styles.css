@@ -118,6 +118,14 @@ body {
   margin-bottom: 24px;
 }
 
+.ts-organism-CRO--bg-fbf7f5 {
+  background-color: #fbf7f5;
+}
+
+.ts-molc-head-desc-CRO__img-desc {
+  background-color: #fbf7f5;
+}
+
 @media screen and (min-width: 768px) {
   .ts-atom-h1 {
     font-size: 63px;
