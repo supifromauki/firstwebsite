@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="footerorganism"
+   content="This organism when placed anywhere in page should be independent">
   <title>Document</title>
   <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -13,7 +15,7 @@
   <link rel="stylesheet" href="/sass/styles.css" />
 </head>
 <body>
-    <header class="container-fluid bg-danger " style="height:200px;">
+    <header class="container-fluid bg-danger" style="height:200px;">
          <p>header</p>
     </header>
 
@@ -97,60 +99,117 @@
                       </div>
                     </div>
                 </div>
-            </div>
+        </div>
 
         </div>
 
-      </div>  
-      <hr class="d-block d-md-block d-lg-none text-decoration-line-through  mt-4" style="color: #cacaca;">
+      <hr class="container d-block d-md-block d-lg-none mt-4 ts-footer__hr" >
        
-      <div class="container-fluid row">
-          <div class="col-12">
-             <img src="/adaptable-wht-fade.svg" class="img-fluid ts-footer__logo-img">
+      <div class="container row ps-4">
+        
+         <div class="col-12 col-md-6">
+            <div class="ms-md-4 ps-md-2">
+             <img src="/adaptable-wht-fade.svg" class="img-fluid ts-footer__logo-img" alt="brand_logo">
              <p class="ts-atom-p ts-footer__p-demo text-light">Get started today. 15-day trial with a 100% money-back guarantee.</p>
-             <button class="btn border border-white rounded-0 ts-atom-p ts-footer__btn-text text-light fw-bold mt-1">Book demo</button>
+             <a href="#" class="text-decoration-none">
+             <button class="btn border border-white rounded-0 ts-atom-p ts-footer__btn-text text-light fw-bold mt-1" data-bs-toggle="modal"
+             data-bs-target="#staticBackdrop" type="submit">Book demo</button>
+             </a>
+
+             <div class="modal fade modal-dialog modal-dialog-centered modal-dialog-scrollable" id="staticBackdrop"
+        data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 text-center text-lg-start">
+                            <img src="/images/adaptable-blk-fade.svg" alt="brand_logo" style="width: 75px;">
+                            <h3 class="ts-atom-h3">get started.</h3>
+                            <div class="ts-atom-h2-para">No sales pitch. No pressure.</div>
+                            <div  class="ts-atom-h3-para pt-5">Our 15-min demo call helps you:</div>
+                            <div  class="ts-atom-h3-para pt-3">Understand our service and benefits.</div>
+                            <div  class="ts-atom-h3-para pt-3">See our platform and how we integrate with your team.</div>
+                            <div  class="ts-atom-h3-para pt-3">Identify which plan fits your needs.</div>
+                        </div>
+                        <div class="col-12 col-lg-6 text-center">
+                            <form>
+                                <div class="form-group">
+                                    <label for="examplename">Name</label>
+                                    <input type="text" class="form-control" id="examplename"
+                                        aria-describedby="emailHelp" placeholder="John Doe">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="name@mail.com">
+                                    
+                                </div>
+
+                                <select class="form-control">
+                                    <label for="exampleplan">Plan</label>
+                                    <option>Select one</option>
+                                  </select>
+                                  <small id="emailHelp" class="form-text text-muted">By clicking the book me in button you agree to our Terms and Privacy Policy.</small>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+            </div>
+        </div>
+             </div>
+            </div>
           </div>  
 
-          <div class="col-6 text-sm-start mt-5">
-             <ul calss="ts-footer__list ">
+          <div class="col-12 col-md-6  text-sm-start">
+            <div class="ms-1 ms-md-0 ms-me-4 mt-4 pt-md-2">
+             <ul calss="ts-footer__list">
                <p class="ts-atom-p ts-footer__list-heading text-light fw-bolder pb-2">Products</p>
-               <li class="ts-footer__list-items">Features</li>
-               <li class="ts-footer__list-items">For Agencies</li>
-               <li class="ts-footer__list-items">For Inbound teams</li>
-               <li class="ts-footer__list-items">Sign in</li>
+               <a href="#" class="text-decoration-none"><li class="ts-footer__list-items">Features</li></a>
+               <a href="#" class="text-decoration-none"><li class="ts-footer__list-items text-decoration-none">For Agencies</li></a>
+               <a href="#" class="text-decoration-none"><li class="ts-footer__list-items text-decoration-none">For Inbound teams</li></a>
+               <a href="#" class="text-decoration-none"><li class="ts-footer__list-items text-decoration-none">Sign in</li></a>
              </ul>
+            </div> 
           </div>   
-          <div class="col-6 mt-5">
-            <ul calss="ts-footer__list ">
-              <p class="ts-atom-p ts-footer__list-heading text-light fw-bolder pb-2">Adapable</p>
-              <li class="ts-footer__list-items">How it works</li>
-              <li class="ts-footer__list-items">Plans</li>
-              <li class="ts-footer__list-items">About</li>
-            </ul>
-         </div>
       </div>
 
        <div class="container row pt-5">
-         <div class="col-12 text-start">
+         
+         <div class="col-12 col-md-12 col-lg-6  order-lg-last">
+           <div class="text-sm-start text-md-start  ms-md-4 mb-md-3 ps-md-3 d-lg-inline-flex d-lg-inline-block">
             <ul class="ts-footer__list-social d-flex">
-              <li class="ts-footer__list-social-items">
-                <img src="/likned_wht.svg" class="img-fluid ts-footer__list-social-img" alt="social media">
-              </li>
-              <li class="ts-footer__list-social-items">
-                <img src="/likned_wht.svg" class="img-fluid ts-footer__list-social-img" alt="social media">
-              </li>
-              <li class="ts-footer__list-social-items">                
-                <img src="/likned_wht.svg" class="img-fluid ts-footer__list-social-img" alt="social media">
-              </li>
-              <li class="ts-footer__list-social-items">
-                <img src="/likned_wht.svg" class="img-fluid ts-footer__list-social-img" alt="social media">
-              </li>
+              <a href="#">
+                <li class="ts-footer__list-social-items"><img src="/likned_wht.svg" class="img-fluid ts-footer__list-social-img" alt="social media"></li>
+              </a>
+              <a href="#">
+                <li class="ts-footer__list-social-items"><img src="/likned_wht.svg" class="img-fluid ts-footer__list-social-img" alt="social media"></li>
+              </a>
+              <a href="#">
+                <li class="ts-footer__list-social-items"><img src="/likned_wht.svg" class="img-fluid ts-footer__list-social-img" alt="social media"></li>
+              </a>
+              <a href="#">
+                <li class="ts-footer__list-social-items"><img src="/likned_wht.svg" class="img-fluid ts-footer__list-social-img" alt="social media"></li>
+              </a>
             </ul>
-            <p class="ts-atom-p ts-footer__credits"> © 2021 Adaptable.❤️ from Los Angeles. All rights reserved.</p>
-        
+          </div> 
+         </div>
+
+         <div class="col-12 col-md-12 col-lg-6 ">
+           <div class="order-lg-first ms-md-4 ps-lg-5 ms-lg-4 ">  
+            <p class="ts-atom-p ts-footer__credits"> © 2021 Adaptable. &nbsp;<span class="heart" style="width:auto;">&hearts;</span>&nbsp; from Los Angeles. All rights reserved.</p>
           </div>
+          </div>
+
        </div>
-    </footer>
+    
+      </footer>
    <script  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"  integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"  crossorigin="anonymous"></script>
    <script src="script/script.js"></script>
 </body>
