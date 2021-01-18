@@ -321,7 +321,7 @@ body, html {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
   .ts-org-header {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -373,17 +373,9 @@ body, html {
   letter-spacing: -0.5px;
 }
 
-.ts-atom-h3--white {
-  color: white;
-}
-
 .ts-atom-h3-para {
   font-size: 13px;
   line-height: 14.95px;
-}
-
-.ts-atom-h3-para--white {
-  color: white;
 }
 
 .ts-atom-h4 {
