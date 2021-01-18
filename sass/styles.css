@@ -31,7 +31,7 @@
 }
 
 .ts-atom-card-img {
-  width: 79.9879px;
+  width: 79.9879px !important;
 }
 
 @media screen and (min-width: 768px) {
@@ -53,15 +53,15 @@
     letter-spacing: normal;
   }
   .ts-atom-card-img {
-    width: 109px;
+    width: 109px !important;
   }
 }
 
 @media screen and (min-width: 992px) {
   .ts-molc-card {
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .ts-molc-card__width {
     width: 24rem;
@@ -81,7 +81,7 @@
     letter-spacing: normal;
   }
   .ts-atom-card-img {
-    width: 109px;
+    width: 109px !important;
   }
 }
 
@@ -119,13 +119,13 @@ body {
 
 .ts-atom-section-icons {
   width: 70px;
-  border-style: none;
+  border-style: none !important;
   float: left;
 }
 
 .ts-atom-icon-desc {
   font-size: 15px !important;
-  border-style: none;
+  border-style: none !important;
   float: left;
   padding-top: 10px;
   width: 280px;
@@ -261,8 +261,7 @@ body {
   }
 }
 
-body,
-html {
+body, html {
   height: 100%;
 }
 
@@ -312,7 +311,7 @@ html {
     border: 3px solid #f1f1f1;
     z-index: 9;
     -webkit-transform: translate(15%, 6%);
-    transform: translate(15%, 6%);
+            transform: translate(15%, 6%);
     width: 77.5%;
     height: 400 px;
   }
@@ -327,7 +326,7 @@ html {
     border-radius: 12px !important;
     background-color: #fff !important;
     -webkit-box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.15) !important;
-    box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.15) !important;
+            box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.15) !important;
     width: -webkit-max-content !important;
     width: -moz-max-content !important;
     width: max-content !important;
@@ -529,7 +528,7 @@ ts-atom-h2-img {
     border-width: 1px;
     border-radius: 6px;
     background-color: #d0ecf8;
-    font-family: "Inconsolota-a";
+    font-family: 'Inconsolota-a';
   }
   .ts-molc-head-desc {
     padding-right: 0px !important;
@@ -559,7 +558,7 @@ ts-atom-h2-img {
   }
   .ts-org-thoughtful--margintop {
     margin-top: 80px;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
   }
   .ts-org-green--mt30 {
     margin-top: 60px;
@@ -576,31 +575,6 @@ ol {
 
 ul {
   padding-left: 0px;
-}
-
-.ts-molc-cardt1 {
-  padding: 0px;
-}
-
-.ts-molc-cardt1--bg {
-  background-color: #fbf7f5;
-  width: 269px;
-  height: 400px;
-}
-
-.ts-cardt1__image {
-  width: 100px;
-  height: 100px;
-}
-
-.ts-cardt1__h4 {
-  font-size: 28px;
-}
-
-.ts-cardt1__p {
-  color: #777777;
-  font-size: 18px;
-  line-height: 1.25;
 }
 
 .ts-org-footer {
@@ -631,7 +605,13 @@ ul {
 
 .ts-molc-footercard__p {
   font-size: 17px;
-  color: #cacaca;
+  color: #CACACA;
+}
+
+.ts-footer__hr {
+  width: 98%;
+  color: white;
+  height: 1.5px !important;
 }
 
 .ts-footer__logo-img {
@@ -664,7 +644,7 @@ ul {
 
 .ts-footer__list-items {
   list-style-type: none;
-  color: #cacaca;
+  color: #CACACA;
 }
 
 .ts-footer__list-social {
@@ -685,33 +665,46 @@ ul {
   color: #505050;
 }
 
-.ts-footer-banner__h2 {
-  font-size: 53px;
-  padding-top: 55px;
-  margin-bottom: 20px;
+@media screen and (min-width: 768px) {
+  .ts-footer-banner__h2 {
+    font-size: 53px;
+    padding-top: 55px;
+    margin-bottom: 20px;
+  }
+  .ts-footer-banner__p {
+    font-size: 22px;
+    width: 500px;
+    letter-spacing: -0.15px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+  }
+  .ts-molc-footercard--bg {
+    margin-top: 40px;
+    margin-left: 23px;
+  }
+  .ts-molc-footercard__img {
+    width: 110px;
+    height: 110px;
+    margin-left: 2px;
+    margin-top: 2px;
+  }
+  .ts-footer__credits {
+    padding-bottom: 40px;
+    padding-right: 100px;
+  }
 }
 
-.ts-footer-banner__p {
-  font-size: 22px;
-  width: 500px;
-  letter-spacing: -0.15px;
-  margin-top: 10px;
-  margin-bottom: 100px;
-}
-
-.ts-molc-footercard--bg {
-  margin-top: 40px;
-  margin-left: 23px;
-}
-
-.ts-molc-footercard__img {
-  width: 110px;
-  height: 110px;
-  margin-left: 2px;
-  margin-top: 2px;
-}
-
-.ts-footer__credits {
-  padding-bottom: 40px;
+@media screen and (min-width: 992px) {
+  .ts-footer__credits {
+    font-size: 15px;
+  }
+  .ts-footer__list-social {
+    margin-left: 450px;
+    margin-right: -260px;
+  }
+  .ts-footer__list-social-img {
+    width: 50px;
+    height: 50px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
