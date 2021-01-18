@@ -31,7 +31,7 @@
 }
 
 .ts-atom-card-img {
-  width: 79.9879px;
+  width: 79.9879px !important;
 }
 
 @media screen and (min-width: 768px) {
@@ -53,7 +53,7 @@
     letter-spacing: normal;
   }
   .ts-atom-card-img {
-    width: 109px;
+    width: 109px !important;
   }
 }
 
@@ -81,7 +81,7 @@
     letter-spacing: normal;
   }
   .ts-atom-card-img {
-    width: 109px;
+    width: 109px !important;
   }
 }
 
@@ -120,13 +120,13 @@ body {
 
 .ts-atom-section-icons {
   width: 70px;
-  border-style: none;
+  border-style: none !important;
   float: left;
 }
 
 .ts-atom-icon-desc {
   font-size: 15px !important;
-  border-style: none;
+  border-style: none !important;
   float: left;
   padding-top: 16px;
   width: 250px;
@@ -260,6 +260,7 @@ body {
 
 body, html {
   height: 100%;
+  overflow-x: hidden;
 }
 
 .ts-content-container {
