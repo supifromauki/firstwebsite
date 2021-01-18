@@ -1,4 +1,4 @@
-
+$large:  992px
 $medium: 768px
 .ts-atom-card-title-h3
     font-family: "Inter"
@@ -7,7 +7,7 @@ $medium: 768px
     line-height: 25px
     letter-spacing: -0.5px
 .ts-atom-card-body
-    font-family: "Inter"
+
     font-size: 16px
     font-weight: 400
     line-height: 20px
@@ -19,11 +19,19 @@ $medium: 768px
     width: 100%
     height: 371px
     width: 322px
-    border-radius: 10px
-
-@media screen and (min-width: $medium)
+    border-radius: 20px
+.ts-org-cards--ml-9
+    margin-left: 9px
+.ts-molc-card__width
+    width: 20rem
+.ts-atom-card-img
+    width: 79.9879px
+@media screen and (min-width:$medium)
+    .ts-molc-card__width
+        width: 215.752px
+        height: 569.721px
     .ts-atom-card-title-h3
-        font-family: "Inter"
+
         font-size: 28px
         font-weight: 800
         line-height: 28px
@@ -35,3 +43,28 @@ $medium: 768px
         font-weight: 400
         line-height: 22.5px
         letter-spacing: normal
+
+    .ts-atom-card-img
+        width: 109px
+
+@media screen and (min-width:$large)
+    .ts-molc-card
+        align-items: center
+    .ts-molc-card__width
+        width: 24rem
+        height: 480px
+    .ts-atom-card-title-h3
+        font-size: 28px
+        font-weight: 800
+        line-height: 28px
+        letter-spacing: -0.5px
+
+    .ts-atom-card-body
+        font-family: "Inter"
+        font-size: 18px
+        font-weight: 400
+        line-height: 22.5px
+        letter-spacing: normal
+
+    .ts-atom-card-img
+        width: 109px

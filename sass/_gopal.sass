@@ -1,5 +1,7 @@
 $medium: 768px
-$large: 1200px
+$large: 992px
+$sm: 576px
+
 body 
     font-family: "Inter"
 .ts-atom-h1
@@ -11,7 +13,9 @@ body
     font-size: 19px
     font-weight: 400
     line-height: 26.6px
-    max-width: 320px
+    padding-right: 1.15rem
+    
+    
 .ts-atom-h2
     font-size: 40px
     font-weight: 800
@@ -31,8 +35,8 @@ body
     font-size: 15px !important
     border-style: none
     float: left
-    padding-top: 16px
-    width: 250px 
+    padding-top: 10px
+    width: 280px 
     padding-left: 0
 .ts-molc-img-desc
     padding-left: 0px
@@ -73,9 +77,11 @@ body
         font-weight: 400
         line-height: 33.6px
         letter-spacing: normal
-        max-width: 500px
+        padding-right: 4rem
+        
     .ts-molc-better__h1
         margin-bottom: 20px
+
     .ts-molc-quality__h2
         width: 495.344px
     .ts-molc-quality__h2-para
@@ -84,7 +90,6 @@ body
     .ts-molc-head-desc__h2-para--width303
         width: 369.8px
         margin-bottom: 24px
-    
 @media screen and (min-width: $large) 
     .ts-atom-h1 
         font-size: 72px
@@ -102,7 +107,8 @@ body
         font-weight: 400
         line-height: 30.8px
         letter-spacing: normal
-        max-width: 560px
+        padding-right: 5rem
+        
     .ts-atom-h2-para
         font-size: 21px
         font-weight: 400
@@ -124,7 +130,10 @@ body
     .ts-atom-icon-desc
         width: 377px
 
-
+@media screen and (max-width: $sm) 
+    .ts-atom-icon-desc
+        margin-left: 70px
+        margin-top: -52px !important
 
         
   
