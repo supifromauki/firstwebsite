@@ -7,7 +7,6 @@
 }
 
 .ts-atom-card-body {
-  font-family: "Inter";
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -20,12 +19,27 @@
   width: 100%;
   height: 371px;
   width: 322px;
-  border-radius: 10px;
+  border-radius: 20px;
+}
+
+.ts-org-cards--ml-9 {
+  margin-left: 9px;
+}
+
+.ts-molc-card__width {
+  width: 20rem;
+}
+
+.ts-atom-card-img {
+  width: 79.9879px;
 }
 
 @media screen and (min-width: 768px) {
+  .ts-molc-card__width {
+    width: 215.752px;
+    height: 569.721px;
+  }
   .ts-atom-card-title-h3 {
-    font-family: "Inter";
     font-size: 28px;
     font-weight: 800;
     line-height: 28px;
@@ -37,6 +51,37 @@
     font-weight: 400;
     line-height: 22.5px;
     letter-spacing: normal;
+  }
+  .ts-atom-card-img {
+    width: 109px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .ts-molc-card {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .ts-molc-card__width {
+    width: 24rem;
+    height: 480px;
+  }
+  .ts-atom-card-title-h3 {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+  }
+  .ts-atom-card-body {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.5px;
+    letter-spacing: normal;
+  }
+  .ts-atom-card-img {
+    width: 109px;
   }
 }
 
@@ -243,6 +288,10 @@ body, html {
   height: 20.6406px;
 }
 
+.modal-dialog {
+  max-width: 860px !important;
+}
+
 @media screen and (min-width: 768px) {
   /* Button used to open the contact form - fixed at the bottom of the page */
   .open-button {
@@ -324,7 +373,7 @@ body, html {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
   .ts-org-header {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -376,17 +425,9 @@ body, html {
   letter-spacing: -0.5px;
 }
 
-.ts-atom-h3--white {
-  color: white;
-}
-
 .ts-atom-h3-para {
   font-size: 13px;
   line-height: 14.95px;
-}
-
-.ts-atom-h3-para--white {
-  color: white;
 }
 
 .ts-atom-h4 {
