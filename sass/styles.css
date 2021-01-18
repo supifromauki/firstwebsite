@@ -31,7 +31,7 @@
 }
 
 .ts-atom-card-img {
-  width: 79.9879px;
+  width: 79.9879px !important;
 }
 
 @media screen and (min-width: 768px) {
@@ -53,7 +53,7 @@
     letter-spacing: normal;
   }
   .ts-atom-card-img {
-    width: 109px;
+    width: 109px !important;
   }
 }
 
@@ -64,7 +64,7 @@
             align-items: center;
   }
   .ts-molc-card__width {
-    width: 24rem;
+    width: 22rem;
     height: 480px;
   }
   .ts-atom-card-title-h3 {
@@ -290,6 +290,7 @@ body, html {
 
 .modal-dialog {
   max-width: 860px !important;
+  position: fixed;
 }
 
 @media screen and (min-width: 768px) {
@@ -374,6 +375,11 @@ body, html {
 }
 
 @media screen and (min-width: 992px) {
+  .modal-dialog {
+    max-width: 860px !important;
+    position: fixed;
+    left: 17% !important;
+  }
   .ts-org-header {
     padding-top: 20px;
     padding-bottom: 20px;

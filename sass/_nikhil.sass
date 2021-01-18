@@ -31,7 +31,7 @@ body,html
     height: 20.6406px
 .modal-dialog
     max-width: 860px !important
-
+    position: fixed
 @media screen and (min-width:$medium)
 
     /* Button used to open the contact form - fixed at the bottom of the page */
@@ -107,6 +107,10 @@ body,html
 
 @media screen and (min-width:$large)
 
+    .modal-dialog
+        max-width: 860px !important
+        position: fixed
+        left: 17% !important
     .ts-org-header
         padding-top: 20px
         padding-bottom: 20px
