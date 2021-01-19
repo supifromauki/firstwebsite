@@ -453,6 +453,18 @@ body {
   line-height: 30.8px;
 }
 
+.ts-molc-img-desc__section-icons {
+  background-color: #fcfcfc;
+}
+
+.ts-molc-img-desc__icon-desc {
+  background-color: #fcfcfc;
+}
+
+.ts-molc-head-desc-CRO__img-desc {
+  background-color: #fbf7f5;
+}
+
 .ts-atom-h2-para-highlight {
   font-size: 18px;
   font-weight: 700;
