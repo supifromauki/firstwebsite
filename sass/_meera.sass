@@ -1,5 +1,7 @@
 $medium : 768px
 $large : 992px
+body
+    background-color: rgb(252,252 ,252 )
 .ts-atom-h2-para
     font-size: 18px
     font-weight: 400
@@ -53,12 +55,20 @@ $large : 992px
 .ts-org-green
     background-image: url('/images/green.PNG')
     padding-top: 35px
-
+.ts-org-about-getting
+    background-image: url('/images/getting.PNG')
 .ts-org-green--mt30
     margin-top: 30px
 
-ts-atom-h2-img
-    width: 50%
+.ts-atom-h2-img
+    width: 90%
+
+.ts-org-bg-yellow
+    background-color: rgb(253, 236, 83)
+
+.ts-molc-getting
+    padding-top: 100px
+    padding-bottom: 0px
 
 @media screen and (min-width: $medium)
     .ts-atom-h3
@@ -119,6 +129,8 @@ ts-atom-h2-img
         margin-left: 90px
         margin-right: 90px
 
+    .ts-atom-h2-img
+        width: 300%
 @media screen and (min-width: $large)
     .ts-atom-h3
         font-size: 36px
@@ -127,9 +139,10 @@ ts-atom-h2-img
         letter-spacing: -0.5px
     .ts-atom-h1--pad-left
         margin-left: 188px
-    .ts-atom-h1-para--pad-left
-        margin-left: 218px
-        max-width: 667px !important
+    .ts-atom-h1-para--agencies-mission-px
+        padding-left: 140px !important
+        padding-right: 140px !important
+
     .ts-molc-head-desc__h2-para--paddingright
         padding-right: 8rem
     .ts-org-thoughtful--margintop
@@ -137,3 +150,8 @@ ts-atom-h2-img
         margin-bottom: 5rem
     .ts-org-green--mt30
         margin-top: 60px
+
+    .ts-atom-h2-img
+        width: 100%
+    .ts-org-card-about__card-row
+        margin-left: -40px !important
