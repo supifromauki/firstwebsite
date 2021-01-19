@@ -149,10 +149,6 @@ body {
   margin-bottom: 18px;
 }
 
-.ts-molc-quality__h2-para {
-  width: 322.5px;
-}
-
 .ts-molc-head-desc__h2--width303 {
   width: 303.141px;
 }
@@ -192,11 +188,7 @@ body {
   .ts-molc-better__h1 {
     margin-bottom: 20px;
   }
-  .ts-molc-quality__h2 {
-    width: 495.344px;
-  }
   .ts-molc-quality__h2-para {
-    width: 495.334px;
     line-height: 31px;
   }
   .ts-molc-head-desc__h2-para--width303 {
@@ -230,13 +222,6 @@ body {
     font-weight: 400;
     line-height: 31.5px;
     letter-spacing: -0.15px;
-  }
-  .ts-molc-quality__h2 {
-    width: 775.328px;
-  }
-  .ts-molc-quality__h2-para {
-    width: 555.328px;
-    margin-left: 90px;
   }
   .ts-org-quality__head-and-desc {
     margin-left: 170px;
@@ -458,7 +443,13 @@ body, html {
   letter-spacing: -0.15px;
 }
 
-.ts-atom-agencies-highlight {
+.ts-atom-h2-para-highlight--yellow {
+  border-radius: 6px;
+  background-color: rgba(253, 255, 144, 0.8);
+  font-family: Inconsolata-a,'Times New Roman',sans-serif;
+}
+
+.ts-atom-agencies__highlight {
   font-size: 17px;
   font-weight: normal;
   line-height: 19.55px;
@@ -711,6 +702,11 @@ ul {
   .ts-footer__list-social-img {
     width: 50px;
     height: 50px;
+  }
+  .ts-molc-footercard--bg {
+    margin-top: 40px;
+    margin-left: 23px;
+    width: 260px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
