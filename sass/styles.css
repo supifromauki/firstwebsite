@@ -478,6 +478,12 @@ body {
   font-family: Inconsolata-a,'Times New Roman',sans-serif;
 }
 
+.ts-atom-h2-para-highlight--blue {
+  border-radius: 6px;
+  background-color: #d0ecf8;
+  font-family: Inconsolata-a,'Times New Roman',sans-serif;
+}
+
 .ts-atom-agencies__highlight {
   font-size: 17px;
   font-weight: normal;
@@ -715,8 +721,7 @@ ul {
 
 @media screen and (min-width: 768px) {
   .ts-footer-banner__h2 {
-    font-size: 53px;
-    padding-top: 55px;
+    padding-top: 40px;
     margin-bottom: 20px;
   }
   .ts-footer-banner__p {
@@ -724,7 +729,7 @@ ul {
     width: 500px;
     letter-spacing: -0.15px;
     margin-top: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   .ts-molc-footercard--bg {
     margin-top: 40px;
