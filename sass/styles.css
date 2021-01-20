@@ -366,6 +366,9 @@ body, html {
     width: 130 px;
     height: 26.8438px;
   }
+  .ts-atom-img--bottom-pad100 {
+    padding-top: 150px;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -394,6 +397,9 @@ body, html {
   }
   .ts-atom-header-link--me {
     margin-right: 12.5px;
+  }
+  .ts-atom-img--bottom-pad100 {
+    padding-top: 150px;
   }
   .ts-atom-button {
     font-family: "Inconsolata", monospace;
@@ -598,6 +604,10 @@ body {
     margin-left: 188px;
   }
   .ts-atom-h1-para--agencies-mission-px {
+    padding-left: 140px !important;
+    padding-right: 140px !important;
+  }
+  .ts-atom-h2-para--quality {
     padding-left: 140px !important;
     padding-right: 140px !important;
   }
