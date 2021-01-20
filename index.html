@@ -58,7 +58,7 @@
               <a class="nav-link ts-atom-header-link ts-atom-header-link--me border-start" href="#">Signin</a>
             </li>
             <li class="ts-molc-header-button">
-              <button class=" btn-dark my-2 my-sm-0 ts-atom-button" data-bs-toggle="modal"
+              <button class=" btn-dark my-2 my-sm-0 ts-atom-button " data-bs-toggle="modal" onclick="myFunction()"
                 data-bs-target="#staticBackdrop" type="submit">Book demo </button>
             </li>
           </ul>
@@ -72,10 +72,10 @@
 
   <!-- Pop up -->
   <!-- Modal -->
- <div class="modal fade modal-dialog modal-dialog-centered modal-dialog-scrollable" id="staticBackdrop"
+ <div class="modal fade modal-dialog modal-dialog-centered modal-dialog-scrollable " id="staticBackdrop"
     data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
     aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog d-block" id="demo">
       <div class="modal-content">
         <div class="modal-body">
           <div class="row">
@@ -755,8 +755,11 @@
     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
     crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/fa595a4e66.js" crossorigin="anonymous"></script>
-
-
+  <script>
+    function myFunction() {
+      document.getElementById("demo").style.display = "block";
+    }
+    </script>
 </body>
 
 </html>
