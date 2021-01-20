@@ -97,6 +97,7 @@ body {
   font-weight: 800;
   line-height: 47.5px;
   letter-spacing: -2.5px;
+  color: black;
 }
 
 .ts-atom-h1-para {
@@ -111,6 +112,7 @@ body {
   font-weight: 800;
   line-height: 38px;
   letter-spacing: -1.5px;
+  color: black;
 }
 
 .ts-atom-h2-para {
@@ -119,6 +121,21 @@ body {
   line-height: 27px;
   letter-spacing: -0.15px;
   color: #575757;
+}
+
+.ts-atom-about-para {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -0.15px;
+  color: #575757;
+  padding-right: 5px;
+}
+
+.ts-atom-h1-para--size22 {
+  font-size: 18px !important;
+  color: #969696;
+  letter-spacing: -0.15px;
 }
 
 .ts-atom-section-icons {
@@ -183,6 +200,13 @@ body {
     letter-spacing: -2px;
     font-weight: 800;
   }
+  .ts-atom-about-para {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: -0.15px;
+    color: #575757;
+  }
   .ts-atom-h1-para {
     font-size: 22px;
     font-weight: 400;
@@ -201,6 +225,12 @@ body {
   }
   .ts-molc-better {
     margin-top: -52px !important;
+  }
+  .ts-atom-h1-para--size22 {
+    font-size: 21px !important;
+    color: #969696;
+    letter-spacing: -0.15px;
+    line-height: 31.5px;
   }
 }
 
@@ -229,6 +259,10 @@ body {
     font-weight: 400;
     line-height: 31.5px;
     letter-spacing: -0.15px;
+  }
+  .ts-atom-h1-para--about-px {
+    padding-left: 156px !important;
+    padding-right: 161px !important;
   }
   .ts-molc-better {
     margin-top: -22px !important;
