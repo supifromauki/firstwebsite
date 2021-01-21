@@ -59,7 +59,9 @@
 
 @media screen and (min-width: 992px) {
   .ts-molc-card {
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .ts-molc-card__width {
     width: 352px;
@@ -341,7 +343,8 @@ body, html {
     right: 15px;
     border: 3px solid #f1f1f1;
     z-index: 9;
-    transform: translate(15%, 6%);
+    -webkit-transform: translate(15%, 6%);
+            transform: translate(15%, 6%);
     width: 77.5%;
     height: 400 px;
   }
@@ -355,7 +358,10 @@ body, html {
     padding: 20px 25px !important;
     border-radius: 12px !important;
     background-color: #fff !important;
-    box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.15) !important;
+    -webkit-box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.15) !important;
+            box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.15) !important;
+    width: -webkit-max-content !important;
+    width: -moz-max-content !important;
     width: max-content !important;
   }
   .ts-org-header {
@@ -797,8 +803,8 @@ ul {
 
 @media screen and (min-width: 768px) {
   .ts-card-container {
-    padding-left: 55px;
-    padding-right: 70px;
+    padding-left: 47px;
+    padding-right: 81px;
   }
   .ts-molc-card {
     padding: 0px;
