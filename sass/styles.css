@@ -1,7 +1,6 @@
 .ts-atom-card-title-h3 {
   font-family: "Inter";
   font-size: 25px;
-  font-weight: 800;
   line-height: 25px;
   letter-spacing: -0.5px;
 }
@@ -27,7 +26,8 @@
 }
 
 .ts-molc-card__width {
-  width: 20rem;
+  width: 324px;
+  height: 392px;
 }
 
 .ts-atom-card-img {
@@ -59,12 +59,10 @@
 
 @media screen and (min-width: 992px) {
   .ts-molc-card {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
   .ts-molc-card__width {
-    width: 22rem;
+    width: 352px;
     height: 480px;
   }
   .ts-atom-card-title-h3 {
@@ -343,8 +341,7 @@ body, html {
     right: 15px;
     border: 3px solid #f1f1f1;
     z-index: 9;
-    -webkit-transform: translate(15%, 6%);
-            transform: translate(15%, 6%);
+    transform: translate(15%, 6%);
     width: 77.5%;
     height: 400 px;
   }
@@ -358,10 +355,7 @@ body, html {
     padding: 20px 25px !important;
     border-radius: 12px !important;
     background-color: #fff !important;
-    -webkit-box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.15) !important;
-            box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.15) !important;
-    width: -webkit-max-content !important;
-    width: -moz-max-content !important;
+    box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.15) !important;
     width: max-content !important;
   }
   .ts-org-header {
@@ -673,6 +667,40 @@ ol {
 
 ul {
   padding-left: 0px;
+}
+
+.ts-atom-p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.ts-molc-card {
+  padding: 0;
+}
+
+.ts-molc-card--mod {
+  width: 93%;
+  height: 374px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.ts-cardt1__h4 {
+  font-size: 25px;
+  line-height: 1;
+  letter-spacing: -0.5px;
+  font-weight: 800;
+}
+
+.ts-cardt1__p {
+  line-height: 1.25;
+  margin-bottom: 10px;
+}
+
+.ts-atom-card__img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: -16px;
 }
 
 .ts-org-footer {
