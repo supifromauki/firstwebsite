@@ -1,12 +1,13 @@
 .ts-atom-card-title-h3 {
   font-family: "Inter";
   font-size: 25px;
+  font-weight: 800;
   line-height: 25px;
   letter-spacing: -0.5px;
 }
 
 .ts-atom-card-body {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: normal;
@@ -32,11 +33,13 @@
   width: 79.9879px !important;
 }
 
+.ts-molc-card--mod {
+  height: auto;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
 @media screen and (min-width: 768px) {
-  .ts-molc-card__width {
-    width: 215.752px;
-    height: 569.721px;
-  }
   .ts-atom-card-title-h3 {
     font-size: 28px;
     font-weight: 800;
@@ -53,17 +56,15 @@
   .ts-atom-card-img {
     width: 109px !important;
   }
+  .ts-molc-card--mod {
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: -2px;
+    margin-right: -2px;
+  }
 }
 
 @media screen and (min-width: 992px) {
-  .ts-molc-card {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .ts-molc-card__width {
-    height: 480px;
-  }
   .ts-atom-card-title-h3 {
     font-size: 28px;
     font-weight: 800;
@@ -76,6 +77,12 @@
     font-weight: 400;
     line-height: 22.5px;
     letter-spacing: normal;
+  }
+  .ts-molc-card--mod {
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: -2px;
+    margin-right: -2px;
   }
   .ts-atom-card-img {
     width: 109px !important;
@@ -692,24 +699,6 @@ ul {
   padding: 0;
 }
 
-.ts-molc-card--mod {
-  height: 374px;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-}
-
-.ts-cardt1__h4 {
-  font-size: 25px;
-  line-height: 1;
-  letter-spacing: -0.5px;
-  font-weight: 800;
-}
-
-.ts-cardt1__p {
-  line-height: 1.25;
-  margin-bottom: 10px;
-}
-
 .ts-atom-card__img {
   width: 80px;
   height: 80px;
@@ -812,18 +801,6 @@ ul {
   .ts-molc-card {
     padding: 0px;
   }
-  .ts-molc-card--mod {
-    height: 578px;
-    margin-bottom: 10px;
-    margin-left: -2px;
-    margin-right: -2px;
-  }
-  .ts-cardt1__h4 {
-    font-size: 25px;
-    line-height: 1;
-    letter-spacing: -0.5px;
-    font-weight: 800;
-  }
   .ts-cardt1__p {
     line-height: 1.25;
     margin-bottom: 10px;
@@ -867,18 +844,6 @@ ul {
   }
   .ts-molc-card {
     padding: 0px;
-  }
-  .ts-molc-card--mod {
-    height: 480px;
-    margin-bottom: 10px;
-    margin-left: -2px;
-    margin-right: -2px;
-  }
-  .ts-cardt1__h4 {
-    font-size: 25px;
-    line-height: 1;
-    letter-spacing: -0.5px;
-    font-weight: 800;
   }
   .ts-cardt1__p {
     line-height: 1.25;
