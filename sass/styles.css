@@ -152,8 +152,7 @@ body {
   font-size: 15px !important;
   border-style: none !important;
   float: left;
-  padding-top: 10px;
-  width: 280px;
+  padding-top: 15px;
   padding-left: 0;
 }
 
@@ -236,9 +235,6 @@ body {
     letter-spacing: -0.15px;
     line-height: 31.5px;
   }
-  .ts-atom-icon-desc {
-    width: 327px;
-  }
 }
 
 @media screen and (min-width: 992px) {
@@ -284,9 +280,6 @@ body {
   .ts-molc-head-desc__h2-para--width303 {
     width: 540.375px;
     margin-bottom: 24px;
-  }
-  .ts-atom-icon-desc {
-    width: 377px;
   }
 }
 
@@ -522,13 +515,15 @@ body {
 .ts-atom-h2-para-highlight--yellow {
   border-radius: 6px;
   background-color: rgba(253, 255, 144, 0.8);
-  font-family: Inconsolata-a,'Times New Roman',sans-serif;
+  font-family: "Inconsolata",'Times New Roman',sans-serif;
+  font-weight: 700;
 }
 
 .ts-atom-h2-para-highlight--blue {
   border-radius: 6px;
   background-color: #d0ecf8;
-  font-family: Inconsolata-a,'Times New Roman',sans-serif;
+  font-weight: 700;
+  font-family: "Inconsolata",'Times New Roman',sans-serif;
 }
 
 .ts-atom-agencies__highlight {
